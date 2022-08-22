@@ -29,6 +29,10 @@ s.framework = "UIKit"
 s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'
 
+s.subspec 'Mapbox' do |sp|
+  #sp.source_files = 'Classes/Twitter'
+end
+
 # 10
 s.swift_version = "5"
 
